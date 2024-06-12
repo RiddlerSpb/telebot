@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const showMessageBtn = document.getElementById('showMessageBtn');
-    const messageDisplay = document.getElementById('messageDisplay');
+    const showGraphBtn = document.getElementById('showGraphBtn');
+    const graphDisplay = document.getElementById('graphDisplay');
 
-    showMessageBtn.addEventListener('click', function() {
-        messageDisplay.textContent = 'Привет! Это пример Telegram Mini App.';
+    showGraphBtn.addEventListener('click', function() {
+        // Здесь можно добавить логику для отображения графики
+        graphDisplay.innerHTML = '<img src="https://example.com/graph_image.jpg" alt="Графика">';
     });
 });
