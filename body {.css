@@ -20,8 +20,34 @@ body {
 }
 
 .sofa {
-    max-width: 80%;
-    max-height: 80%;
+    width: 300px;
+    height: 150px;
+    background-color: #8B4513;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.sofa::before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    width: 260px;
+    height: 50px;
+    background-color: #8B4513;
+    border-radius: 10px 10px 0 0;
+}
+
+.sofa::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 50px;
+    width: 200px;
+    height: 30px;
+    background-color: #8B4513;
+    border-radius: 0 0 10px 10px;
 }
 
 .text {
