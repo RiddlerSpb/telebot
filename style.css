@@ -21,8 +21,8 @@ body {
 
 .sofa {
     position: relative;
-    width: 300px;
-    height: 150px;
+    width: 150px; /* Width reduced to a third */
+    height: 75px; /* Height reduced to a third */
     background-color: #8B4513;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
@@ -69,35 +69,35 @@ body {
 }
 
 .sofa .leg {
-    width: 10px;
-    height: 10px;
+    width: 5px; /* Width reduced to a third */
+    height: 5px; /* Height reduced to a third */
     background-color: #8B4513;
     position: absolute;
-    bottom: -5px;
+    bottom: -3px;
     border-radius: 0 0 5px 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .sofa .leg.front {
-    bottom: -10px;
-}
-
-.sofa .leg.back {
     bottom: -5px;
 }
 
+.sofa .leg.back {
+    bottom: -3px;
+}
+
 .sofa .leg.left {
-    left: 20px;
+    left: 15px; /* Adjusted for smaller size */
 }
 
 .sofa .leg.right {
-    right: 20px;
+    right: 15px; /* Adjusted for smaller size */
 }
 
 .text {
     position: absolute;
     bottom: 10px;
-    font-size: 24px;
+    font-size: 16px; /* Font size reduced to a third */
     font-weight: bold;
     color: white;
     text-align: center;
