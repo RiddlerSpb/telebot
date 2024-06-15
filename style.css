@@ -30,10 +30,10 @@ body {
 
 .sofa .seat {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 60%;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    height: 60px;
     background-color: #8B4513;
     border-radius: 0 0 20px 20px;
 }
@@ -41,21 +41,47 @@ body {
 .sofa .backrest {
     position: absolute;
     top: 0;
-    left: 10%;
-    right: 10%;
-    height: 40%;
+    left: 20px;
+    right: 20px;
+    height: 60px;
     background-color: #8B4513;
     border-radius: 20px 20px 0 0;
 }
 
-.sofa .legs {
+.sofa .armrest {
     position: absolute;
-    bottom: -10px;
-    left: 10%;
-    right: 10%;
-    height: 10px;
+    width: 20px;
+    height: 60px;
     background-color: #8B4513;
+}
+
+.sofa .armrest.left {
+    left: 0;
+    bottom: 20px;
+    border-radius: 0 0 0 20px;
+}
+
+.sofa .armrest.right {
+    right: 0;
+    bottom: 20px;
+    border-radius: 0 0 20px 0;
+}
+
+.sofa .leg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #8B4513;
+    bottom: -10px;
     border-radius: 0 0 10px 10px;
+}
+
+.sofa .leg.left {
+    left: 40px;
+}
+
+.sofa .leg.right {
+    right: 40px;
 }
 
 .text {
