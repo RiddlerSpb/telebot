@@ -4,14 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telegram Mini App</title>
-    <script src="script.js" defer></script>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .footer-text {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Привет! Это Telegram Mini App на JavaScript.</h1>
-        <p>Нажмите кнопку ниже, чтобы увидеть графику:</p>
-        <button id="showGraphBtn">Показать графику</button>
-        <div id="graphDisplay"></div>
-    </div>
+    <img src="https://example.com/sofa_image.png" alt="Диван">
+    <div class="footer-text">So, soon...</div>
 </body>
 </html>
