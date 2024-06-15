@@ -30,7 +30,6 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    overflow: hidden;
 }
 
 .sofa .backrest {
@@ -48,25 +47,7 @@ body {
     background: linear-gradient(to top, #A0522D, #8B4513);
     border-radius: 0 0 20px 20px;
     position: absolute;
-    bottom: 30px;
-}
-
-.sofa .cushion {
-    width: 40%;
-    height: 60%;
-    background: linear-gradient(to bottom, #CD853F, #8B4513);
-    border-radius: 10px;
-    position: absolute;
-    bottom: 60px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.sofa .cushion.left {
-    left: 10%;
-}
-
-.sofa .cushion.right {
-    right: 10%;
+    bottom: 0;
 }
 
 .sofa .armrest {
@@ -74,7 +55,7 @@ body {
     height: 50%;
     background: linear-gradient(to bottom, #8B4513, #5A2D0C);
     position: absolute;
-    bottom: 30px;
+    bottom: 0;
 }
 
 .sofa .armrest.left {
