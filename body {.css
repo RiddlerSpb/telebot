@@ -1,15 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telegram Mini App</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <img src="https://your-username.github.io/your-repository/sofa_image.png" alt="Диван" onerror="this.style.display='none'">
-        <div class="footer-text">So, soon...</div>
-    </div>
-</body>
-</html>
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.sofa {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
